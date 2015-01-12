@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+        <!-- martin_view_pager 'acclaim' -->
+        <dimen name="acclaim_dialog_text">20.0sp</dimen>
+        <dimen name="acclaim_dialog_corner_radius">5.0dp</dimen>
+        <dimen name="acclaim_dialog_border_size">1.0dp</dimen>
+        <dimen name="acclaim_dialog_drop_shadow_size">3.0dp</dimen>
+        <dimen name="acclaim_dialog_width">250.0dp</dimen>
+        <dimen name="acclaim_dialog_logo_width">175.0dp</dimen>
+        <dimen name="acclaim_fg_arrow_width">150.0dp</dimen>
+        <dimen name="acclaim_bg_icon_size">67.0dp</dimen>
+        <dimen name="acclaim_bg_icon_distance_size">10.0dp</dimen>
+        <dimen name="acclaim_logo_height">65.0dp</dimen>
+        <dimen name="acclaim_dialog_padding">25.0dp</dimen>
+
+        <!-- content -->
+        <dimen name="content_distance_big">10.0dp</dimen>
+        <dimen name="content_distance_normal">5.0dp</dimen>
+        <dimen name="content_distance_small">2.5dp</dimen>
+
+        <!-- scrollbar -->
+        <dimen name="scrollbar_width">4.0dp</dimen>
+        <dimen name="scrollbar_corner_radius">4.0dp</dimen>
+
+        <!-- fading edges -->
+        <dimen name="fading_edge_size">10.0dp</dimen>
+        <integer name="fading_edge_size">10</integer>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- app name -->
+    <string name="appname">Amt1</string>
+
+    <!-- view pager example -->
+    <string name="state_acclaim_page1">This is an Example of the ViewPager UI component. Slide this page left in order to switch to the second page.</string>
+    <string name="state_acclaim_page2">This is the second page of the ViewPager example activity. All pages are served by a PagerAdapter.</string>
+    <string name="state_acclaim_page3">This is the last page of the ViewPager example activity.\n\nThanks for your attention and come back soon.</string>
+
+</resources>

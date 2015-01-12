@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- The app's style - Disabled Title-bar -->
+    <style name="AppTheme" parent="android:Theme.NoTitleBar">
+
+        <!-- remove window overlay shadow on top border -->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- disable default window animation style -->
+        <item name="android:windowAnimationStyle">@null</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- producer -->
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="@color/view_pager_text"
+    android:textSize="@dimen/acclaim_dialog_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:includeFontPadding="true"
+    android:lineSpacingMultiplier="1.0"
+    android:fadingEdge="none"
+    android:singleLine="false"
+    android:gravity="center_horizontal|top"
+    />
+<!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/layout/martin_view_pager_text.xml -->

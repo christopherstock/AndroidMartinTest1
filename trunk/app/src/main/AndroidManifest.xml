@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- the manifest tag is mandatory for every Android application -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.christopherstock.android.martin.test1"
+    android:versionCode="1"
+    android:versionName="0.0.1" >
+
+    <!-- support all screens -->
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:normalScreens="true" />
+
+    <!-- mandatory permissions -->
+<!--
+    <uses-permission android:name="android.permission.INTERNET" />
+-->
+
+    <!-- this application supports all api levels -->
+    <uses-sdk
+        android:minSdkVersion="1"
+        android:targetSdkVersion="17" />
+
+    <!-- all application components - attribute android:name and the Application-context-class are history! -->
+    <application
+        android:largeHeap="true"
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@drawable/martin_app_icon"
+        android:label="@string/appname"
+        android:theme="@style/AppTheme"
+        >
+
+        <!-- the ViewPager activity -->
+        <activity android:name=".viewpager.Amt1ViewPager" android:label="@string/appname" android:launchMode="singleTop" android:configChanges="orientation|keyboard|keyboardHidden|locale" android:screenOrientation="portrait">
+
+            <!-- specify this activity as the startup activity -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- let this activity start if a 'martin://' link is activated -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="martin" />
+            </intent-filter>
+
+            <!-- let this activity start if a '.topo' file is opened in an HTTP REQUEST -->
+            <intent-filter>
+              <action android:name="android.intent.action.VIEW" />
+              <category android:name="android.intent.category.BROWSABLE" />
+              <category android:name="android.intent.category.DEFAULT" />
+              <data android:scheme="http" />
+              <data android:host="*" />
+              <data android:pathPattern=".*\\.topo" />
+            </intent-filter>
+
+            <!-- let this activity start if a '.topo' file is opened in a FILE BROWSER app -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="file" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.topo" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>

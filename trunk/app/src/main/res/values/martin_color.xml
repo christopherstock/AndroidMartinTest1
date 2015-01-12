@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+        <!-- branding -->
+        <color name="mayflower_orange">#ffee7202</color>
+        <color name="mayflower_grey">#ff706f6f</color>
+
+        <!-- view pager indicator -->
+        <color name="view_pager_indicator_bg">#ffffffff</color>
+        <color name="view_pager_indicator_fill">@color/mayflower_orange</color>
+        <color name="view_pager_indicator_border_bg">@color/mayflower_grey</color>
+
+        <!-- screen -->
+        <color name="screen_bg_gradient_top">#ff000000</color>
+        <color name="screen_bg_gradient_center">#ff000000</color>
+        <color name="screen_bg_gradient_bottom">#ff706f6f</color>
+
+        <!-- texts -->
+        <color name="view_pager_text">@color/mayflower_grey</color>
+
+        <!-- view pager indicator footer bg -->
+        <color name="view_pager_footer_bg">#ffffffff</color>
+
+        <!-- scrollbar -->
+        <color name="scrollbar_start">@color/mayflower_orange</color>
+        <color name="scrollbar_end">@color/mayflower_orange</color>
+
+</resources>

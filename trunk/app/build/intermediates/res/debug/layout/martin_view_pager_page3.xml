@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- specifies the orientation -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbarThumbHorizontal="@drawable/martin_view_pager_scrollbar"
+    android:scrollbarThumbVertical="@drawable/martin_view_pager_scrollbar"
+    android:scrollbarSize="@dimen/scrollbar_width"
+    android:fadingEdgeLength="@dimen/fading_edge_size"
+    android:requiresFadingEdge="vertical"
+    android:fadeScrollbars="true"
+    android:gravity="center_horizontal|top"
+    android:fillViewport="true"
+    >
+
+    <!-- outer container -->
+    <LinearLayout
+            android:id="@+id/acclaim_page_outer_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal|top"
+            >
+
+        <!-- message container -->
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal|center_vertical"
+                android:background="@android:color/transparent"
+                >
+
+            <!-- vertical layout -->
+            <LinearLayout
+                android:layout_width="@dimen/acclaim_dialog_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal|center_vertical"
+                android:background="@drawable/martin_view_pager_textbox"
+                android:padding="@dimen/acclaim_dialog_padding"
+                >
+
+                <!-- text -->
+                <include    android:id="@+id/acclaim_text"
+                            layout="@layout/martin_view_pager_text"
+                            />
+
+                <!-- spacer -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/content_distance_normal"
+                    android:background="@android:color/transparent"
+                    />
+
+                <!-- acclaim arrow right -->
+                <ImageView
+                    android:layout_width="@dimen/acclaim_fg_arrow_width"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/martin_view_pager_arrow_right"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!-- smartphone container -->
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.0"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="@dimen/content_distance_big"
+                >
+
+            <!-- fg pics -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/martin_view_pager_image"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+<!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/layout/martin_view_pager_page3.xml -->

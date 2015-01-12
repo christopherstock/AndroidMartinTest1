@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle"
+        >
+
+    <gradient   android:startColor="@color/screen_bg_gradient_top"
+                android:centerColor="@color/screen_bg_gradient_center"
+                android:endColor="@color/screen_bg_gradient_bottom"
+                android:angle="270"
+                />
+
+</shape>
+<!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/drawable/martin_view_pager_background.xml -->
