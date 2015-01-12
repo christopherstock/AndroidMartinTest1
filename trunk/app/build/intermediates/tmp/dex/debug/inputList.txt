@@ -1,2 +1,2 @@
-E:\workspaces\android\AndroidMartinTest1\trunk\app\build\intermediates\classes\debug
-E:\workspaces\android\AndroidMartinTest1\trunk\app\build\intermediates\pre-dexed\debug\android-support-v4-fa33e34a362cfcd05b59ff50186467933bf0fd7f.jar
+C:\Users\Stock\workspaces\android\AndroidMartinTest1\trunk\app\build\intermediates\classes\debug
+C:\Users\Stock\workspaces\android\AndroidMartinTest1\trunk\app\build\intermediates\pre-dexed\debug\android-support-v4-4b16febd7d750fcca84955554e076adbfd9b9bcf.jar

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__attrs.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__attrs.xml -->
     <eat-comment/>
     <attr format="boolean" name="centered"/>
     <attr format="color" name="selectedColor"/>
     <attr format="dimension" name="strokeWidth"/>
     <attr format="color" name="unselectedColor"/>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__defaults.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__defaults.xml -->
     <eat-comment/>
     <bool name="default_circle_indicator_centered">true</bool>
     <bool name="default_circle_indicator_snap">false</bool>
@@ -23,7 +23,7 @@
     <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
     <color name="default_title_indicator_text_color">#BBFFFFFF</color>
     <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_color.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_color.xml -->
     <eat-comment/>
     <color name="mayflower_grey">#ff706f6f</color>
     <color name="mayflower_orange">#ffee7202</color>
@@ -37,7 +37,7 @@
     <color name="view_pager_indicator_border_bg">@color/mayflower_grey</color>
     <color name="view_pager_indicator_fill">@color/mayflower_orange</color>
     <color name="view_pager_text">@color/mayflower_grey</color>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__colors.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__colors.xml -->
     <eat-comment/>
     <color name="vpi__background_holo_dark">#ff000000</color>
     <color name="vpi__background_holo_light">#fff3f3f3</color>
@@ -52,7 +52,7 @@
     <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
     <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_dimension.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_dimension.xml -->
     <eat-comment/>
     <dimen name="acclaim_bg_icon_distance_size">10.0dp</dimen>
     <dimen name="acclaim_bg_icon_size">67.0dp</dimen>
@@ -68,7 +68,7 @@
     <dimen name="content_distance_big">10.0dp</dimen>
     <dimen name="content_distance_normal">5.0dp</dimen>
     <dimen name="content_distance_small">2.5dp</dimen>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__defaults.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__defaults.xml -->
     <eat-comment/>
     <dimen name="default_circle_indicator_radius">4.5dp</dimen>
     <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
@@ -83,28 +83,28 @@
     <dimen name="default_title_indicator_text_size">15dp</dimen>
     <dimen name="default_title_indicator_title_padding">5dp</dimen>
     <dimen name="default_title_indicator_top_padding">7dp</dimen>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_dimension.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_dimension.xml -->
     <eat-comment/>
     <dimen name="fading_edge_size">10.0dp</dimen>
     <dimen name="scrollbar_corner_radius">4.0dp</dimen>
     <dimen name="scrollbar_width">4.0dp</dimen>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__defaults.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__defaults.xml -->
     <eat-comment/>
     <integer name="default_circle_indicator_orientation">0</integer>
     <integer name="default_title_indicator_footer_indicator_style">2</integer>
     <integer name="default_title_indicator_line_position">0</integer>
     <integer name="default_underline_indicator_fade_delay">300</integer>
     <integer name="default_underline_indicator_fade_length">400</integer>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_dimension.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_dimension.xml -->
     <eat-comment/>
     <integer name="fading_edge_size">10</integer>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_string.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_string.xml -->
     <eat-comment/>
     <string name="appname">Amt1</string>
     <string name="state_acclaim_page1">This is an Example of the ViewPager UI component. Slide this page left in order to switch to the second page.</string>
     <string name="state_acclaim_page2">This is the second page of the ViewPager example activity. All pages are served by a PagerAdapter.</string>
     <string name="state_acclaim_page3">This is the last page of the ViewPager example activity.\n\nThanks for your attention and come back soon.</string>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_style.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/martin_style.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="android:Theme.NoTitleBar">
 
@@ -115,7 +115,7 @@
         <item name="android:windowAnimationStyle">@null</item>
 
     </style>
-    <!-- From: file:/E:/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__styles.xml -->
+    <!-- From: file:/C:/Users/Stock/workspaces/android/AndroidMartinTest1/trunk/app/src/main/res/values/vpi__styles.xml -->
     <eat-comment/>
     <style name="TextAppearance.TabPageIndicator" parent="Widget">
         <item name="android:textStyle">bold</item>

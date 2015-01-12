@@ -5,12 +5,12 @@ android {
         christopher_stock {
         }
     }
-    compileSdkVersion 17
+    compileSdkVersion 21
     buildToolsVersion '21.1.2'
     defaultConfig {
         applicationId 'de.christopherstock.android.martin.test1'
         minSdkVersion 1
-        targetSdkVersion 17
+        targetSdkVersion 21
         versionCode 1
         versionName "1.0"
         signingConfig signingConfigs.christopher_stock

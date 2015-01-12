@@ -9,7 +9,7 @@
     <!-- this application supports all api levels -->
     <uses-sdk
         android:minSdkVersion="1"
-        android:targetSdkVersion="17" />
+        android:targetSdkVersion="21" />
 
     <!-- support all screens -->
     <supports-screens
